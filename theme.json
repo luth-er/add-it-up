@@ -13,22 +13,32 @@
         {
           "name": "Background",
           "slug": "background",
-          "color": "#FEFEFE"
+          "color": "#f1daba"
         },
         {
-          "name": "Foreground",
-          "slug": "foreground",
-          "color": "#181A1F"
+          "name": "Black",
+          "slug": "black",
+          "color": "#221914"
         },
         {
-          "name": "Primary",
-          "slug": "primary",
-          "color": "#3858e9"
+          "name": "Orange",
+          "slug": "orange",
+          "color": "#ee9a39"
         },
         {
-          "name": "Secondary",
-          "slug": "secondary",
-          "color": "#7b90ff"
+          "name": "Red",
+          "slug": "red",
+          "color": "#d83136"
+        },
+        {
+          "name": "Plum",
+          "slug": "plum",
+          "color": "#ab284b"
+        },
+        {
+          "name": "Deep Purple",
+          "slug": "deep-purple",
+          "color": "#67173e"
         }
       ]
     },
@@ -86,64 +96,57 @@
         {
           "fontFace": [
             {
-              "fontFamily": "EBGaramond",
+              "fontFamily": "BBHHegarty",
               "fontStyle": "normal",
               "fontWeight": "400",
               "src": [
-                "file:./fonts/EBGaramond-Regular.ttf"
+                "file:./fonts/BBHHegarty-Regular.ttf"
               ]
-            },
-            {
-              "fontFamily": "EBGaramond",
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "src": [
-                "file:./fonts/EBGaramond-Bold.ttf"
-              ]
-            },
-			{
-			  "fontFamily": "EBGaramond",
-              "fontStyle": "italic",
-              "fontWeight": "400",
-              "src": [
-                "file:./fonts/EBGaramond-Italic.ttf"
-              ]
-            },
-			{
-              "fontFamily": "EBGaramond",
-              "fontStyle": "italic",
-              "fontWeight": "700",
-              "src": [
-                "file:./fonts/EBGaramond-BoldItalic.ttf"
-              ]
-			}
+            }
           ],
-          "fontFamily": "\"EBGaramond\", sans-serif",
-          "name": "EB Garamond",
-          "slug": "ebgaramond"
+            "fontFamily": "\"BBHHegarty\", sans-serif",
+            "name": "BBH Hegarty",
+            "slug": "bbhhegarty"
         },
         {
           "fontFace": [
             {
-              "fontFamily": "Inter",
+              "fontFamily": "CourierPrime",
               "fontStyle": "normal",
               "fontWeight": "400",
               "src": [
-                "file:./fonts/Inter-Regular.ttf"
+                "file:./fonts/CourierPrime-Regular.ttf"
               ]
             },
             {
-              "fontFamily": "Inter",
-              "fontStyle": "normal",
+              "fontFamily": "CourierPrime",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": [
+                "file:./fonts/CourierPrime-Italic.ttf"
+              ]
+            },
+            {
+              "fontFamily": "CourierPrime",
+              "fontStyle": "bold",
               "fontWeight": "700",
               "src": [
-                "file:./fonts/Inter-Bold.ttf"
+                "file:./fonts/CourierPrime-Bold.ttf"
+              ]
+            },
+            {
+              "fontFamily": "CourierPrime",
+              "fontStyle": "bold italic",
+              "fontWeight": "700",
+              "src": [
+                "file:./fonts/CourierPrime-BoldItalic.ttf"
               ]
             }
+
           ],
-          "fontFamily": "\"Inter\", serif",
-          "name": "Inter",
-          "slug": "inter"
+          "fontFamily": "\"CourierPrime\", monospace",
+          "name": "Courier Prime",
+          "slug": "courierprime"
         }
       ],
       "fontSizes": [
@@ -235,7 +238,7 @@
   "styles": {
     "color": {
       "background": "var:preset|color|background",
-      "text": "var:preset|color|foreground"
+      "text": "var:preset|color|black"
     },
     "elements": {
       "button": {
@@ -315,7 +318,7 @@
       },
       "heading": {
         "typography": {
-          "fontFamily": "var:preset|font-family|ebgaramond",
+          "fontFamily": "var:preset|font-family|bbhhegarty",
           "fontWeight": "400",
           "lineHeight": "1.2"
         }
