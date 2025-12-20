@@ -1,0 +1,145 @@
+.wp-block-button {
+
+	&.is-style-fill {
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black);
+			color: var(--wp--preset--color--background);
+			border: 2px solid var(--wp--preset--color--black);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--black);
+				border: 2px solid var(--wp--preset--color--black);
+			}
+		}
+
+		.has-orange-background-color {
+			background-color: var(--wp--preset--color--orange);
+			color: var(--wp--preset--color--black);
+			border: 2px solid var(--wp--preset--color--orange);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--orange);
+				color: var(--wp--preset--color--black);
+				border: 2px solid var(--wp--preset--color--black);
+			}
+		}
+
+		.has-red-background-color {
+			background-color: var(--wp--preset--color--red);
+			color: var(--wp--preset--color--background);
+			border: 2px solid var(--wp--preset--color--red);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--red) !important;
+				border: 2px solid var(--wp--preset--color--red);
+			}
+		}
+
+		.has-plum-background-color {
+			background-color: var(--wp--preset--color--plum);
+			color: var(--wp--preset--color--background);
+			border: 2px solid var(--wp--preset--color--plum);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--plum) !important;
+				border: 2px solid var(--wp--preset--color--plum);
+			}
+		}
+
+		.has-deep-purple-background-color {
+			background-color: var(--wp--preset--color--deep-purple);
+			color: var(--wp--preset--color--background);
+			border: 2px solid var(--wp--preset--color--deep-purple);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--deep-purple) !important;
+				border: 2px solid var(--wp--preset--color--deep-purple);
+			}
+		}
+	}
+
+	&.is-style-outline {
+
+		a {
+			color: var(--wp--preset--color--black);
+			border: 2px solid var(--wp--preset--color--black);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--black);
+				color: var(--wp--preset--color--background) !important;
+				border: 2px solid var(--wp--preset--color--black);
+			}
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black);
+			border: 2px solid var(--wp--preset--color--black);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--black);
+				color: var(--wp--preset--color--background) !important;
+				border: 2px solid var(--wp--preset--color--black);
+			}
+		}
+
+		.has-orange-color {
+			color: var(--wp--preset--color--orange);
+			border: 2px solid var(--wp--preset--color--orange);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--orange);
+				color: var(--wp--preset--color--black) !important;
+				border: 2px solid var(--wp--preset--color--orange);
+			}
+		}
+
+		.has-red-color {
+			color: var(--wp--preset--color--red);
+			border: 2px solid var(--wp--preset--color--red);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--red);
+				color: var(--wp--preset--color--background) !important;
+				border: 2px solid var(--wp--preset--color--red);
+			}
+		}
+
+		.has-plum-color {
+			color: var(--wp--preset--color--plum);
+			border: 2px solid var(--wp--preset--color--plum);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--plum);
+				color: var(--wp--preset--color--background) !important;
+				border: 2px solid var(--wp--preset--color--plum);
+			}
+		}
+
+		.has-deep-purple-color {
+			color: var(--wp--preset--color--deep-purple);
+			border: 2px solid var(--wp--preset--color--deep-purple);
+			transition: background-color 500ms, border-color 1s, color 1s;
+
+			&:hover {
+				background-color: var(--wp--preset--color--deep-purple);
+				color: var(--wp--preset--color--background) !important;
+				border: 2px solid var(--wp--preset--color--deep-purple);
+			}
+		}
+	}
+}
